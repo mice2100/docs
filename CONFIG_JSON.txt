@@ -1,0 +1,27 @@
+
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbound": {
+    "protocol": "vmess",
+    "port": 8080,
+    "settings": {
+      "clients": [
+        {
+          "id": "88aad866-d622-11e8-9f8b-f2801f1b9fd1",
+          "alterId": 64,
+	  "security": "aes-128-cfb"
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws"
+    }
+  },
+  "inboundDetour": [],
+  "outbound": {
+    "protocol": "freedom",
+   "settings": {}
+  }
+}
